@@ -23,6 +23,7 @@ body {
   padding: 5px;
   color: rgb(0, 98, 255);
   font-family: "Rambla", sans-serif;
+  font-size: 50px;
   text-align: center;
   letter-spacing: 0.2em;
 }
@@ -41,6 +42,7 @@ body {
 
 #navbar ul li {
   font-family: "Rambla";
+  font-size: 30px;
   padding-left: 100px;
   display: inline;
   text-align: center;
