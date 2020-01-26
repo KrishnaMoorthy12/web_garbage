@@ -1,0 +1,21 @@
+* {
+  font-family: "Source Sans Pro", "Segoe UI", "Roboto Sans", sans-serif;
+}
+
+.-black {
+  background-color: black;
+  color: white;
+}
+
+.-blue {
+  background-color: #126bff;
+  color: white;
+}
+
+.top-20 {
+  margin-top: 4em;
+}
+
+.outline-null {
+  border: transparent;
+}
