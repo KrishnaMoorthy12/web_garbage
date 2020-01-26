@@ -15,3 +15,36 @@
 .outline-null {
   border: transparent;
 }
+
+.-upper {
+  text-transform: uppercase;
+}
+
+.-lower {
+  text-transform: lowercase;
+}
+
+.-cap {
+  text-transform: capitalize;
+}
+
+.-italic {
+  font-style: italic;
+}
+
+.-bold {
+  font-weight: bold;
+}
+
+.-fl {
+  float: left;
+}
+
+.-fr {
+  float: right;
+}
+
+.hover-blue:hover {
+  background-color: #126bff;
+  color: white;
+}
