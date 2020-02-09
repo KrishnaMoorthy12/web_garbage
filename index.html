@@ -14,9 +14,9 @@
   <link rel="stylesheet" href="stylesheets/styles.css">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,300i,400,400i,600,600i,700,700i&display=swap"
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,400i,700,700i&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,500,700&display=swap" rel="stylesheet">
 
   <!-- Google Material Icons CSS-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
@@ -24,13 +24,12 @@
   <title>Trident Compilers</title>
 </head>
 <nav class="navbar sticky-top navbar-expand-md navbar-dark -blue">
-  <a class="navbar-brand -upper -italic" href="#">
-    <!-- <img src="assets/trident.ico" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+  <a class="navbar-brand -upper" href="#">
+    <img src="assets/trident.ico" width="30" height="30" class="d-inline-block align-top" alt="">
     Trident
   </a>
   <button class="navbar-toggler outline-null" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <!-- <span class="navbar-toggler-icon"></span> -->
     <i class="material-icons-outlined md-18">menu</i>
   </button>
 
@@ -63,21 +62,66 @@
 
 <body>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-8 col-md-8">
+    <div class="row head">
+      <div class="col-lg-8 col-md-8 left-pane">
         <h1 class="-white">Download compilers</h1>
         <p class="description -white">
           Trident supports compiling and running of some of the popular programming languages, but you need to have
           the appropriate compilers installed and the path set properly in order to use them. Choose the compilers you
           want to download.
         </p>
-        <button class="download">Download All</button>
-        <button class="download">Select</button>
+        <div class="button-group">
+          <span class="col-3">
+            <button class="btn btn-outline-light btn-lg">
+              <i class="material-icons-outlined md-24">save_alt</i> Download All
+            </button>
+          </span>
+          <span class="col-3">
+            <button class="btn btn-outline-light btn-lg dl">
+              <i class="material-icons-outlined md-24">indeterminate_check_box</i>Custom Download
+            </button>
+          </span>
+        </div>
       </div>
       <div class="col-lg-4 col-md-4">
-        <img src=" assets/compiler-white.png" height="250">
+        <div class="image -center -white">
+          <img src=" assets/compiler-white.png" height="250">
+        </div>
       </div>
     </div>
+  </div>
+  <div class="container-fluid">
+    <section id="partners">
+      <div class="row">
+        <div class="col-12">
+          <div class="ttl">
+            <h1>The compilers we choose...</h1>
+          </div>
+          <div class="compilers-list">
+            <div class="col-lg-6 col-md-6">
+              <div class="card">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="card">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
