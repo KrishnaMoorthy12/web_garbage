@@ -48,3 +48,22 @@
   background-color: #126bff;
   color: white;
 }
+
+.container-fluid {
+  background-color: #126bff;
+  padding: 3% 10%;
+}
+
+h1 {
+  line-height: 1.5;
+}
+
+.-white {
+  color: white;
+}
+
+.description {
+  text-align: justify;
+  display: block;
+  word-wrap: break-word;
+}
