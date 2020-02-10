@@ -110,6 +110,16 @@ h1 {
   margin-right: 5px;
 }
 
-.compilers-list {
-  margin: 0% 10%;
+.sub {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  margin-bottom: 1rem;
 }
