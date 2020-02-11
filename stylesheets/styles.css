@@ -128,3 +128,8 @@ h1 {
   background-color: #f89820;
   /* border-color: black; */
 }
+
+.c-brown {
+  background-color: brown;
+  color: white;
+}
